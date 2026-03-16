@@ -47,6 +47,9 @@ if [ "$ID" = "debian" ]; then
         > /etc/apt/sources.list
 
     echo "Default Debian repo added."
+    echo "Installing GIT + GH"
+    apt install git
+    apt install gh
 fi
 
 echo "Done."
